@@ -116,7 +116,6 @@ interface GigabitEthernet1/0/1
  storm-control broadcast level 1.00
  storm-control action shutdown
  spanning-tree portfast
- description Cisco Nexus 1 - This is a test.
 !
 interface GigabitEthernet1/0/2
  description Cisco Nexus 2
@@ -358,6 +357,6 @@ line vty 5 15
  logging synchronous
  transport input ssh
 !
-ntp clock-period 36029366
+ntp clock-period 36029289
 ntp server 10.139.2.4
 end
